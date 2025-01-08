@@ -1,1 +1,17 @@
 R Code for Project
+#install required packages including devtools, ggpubr, ggplot2 and car
+install.packages("devtools")
+install.packages("ggpubr")
+install.packages("ggplot2")
+install.packages("car")
+#perfomr library command on installed packages
+library("ggplot2")
+library("ggpubr")
+library("car")
+#create scatter plot of Tumour size vs Number of LN and assign it to the value "p", indicate the inclusion of the correlation coefficient and confidence interval, specify which correlation method is to be used (pearson in this case), and include axis labels.
+p <- ggscatter(AGASACA_Data, x = "Tumour size", y = "Number of LN", 
+          add = "reg.line", conf.int = TRUE,
+          cor.coef = TRUE, cor.method = "pearson",
+          xlab = "Tumour size (cm)", ylab = "Number of LN")
+#utilize teh ggpar function to change the angle of the text on the x axis to 45 degrees
+ggpar(p, x.text.angle = 45)
