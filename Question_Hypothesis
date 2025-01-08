@@ -1,1 +1,10 @@
-Hypothesis for data set
+Data set from publication "Clinical and histopathological features of 81 cases of canine apocrine galnd carcinoma of the anal sac"
+Wong, Hannah; Byrne, Stephanie; Rasotto, Roberta et al. (2021). Clinical and histopathological features of 81 cases of canine apocrine gland carcinoma of the anal sac [Dataset]. Dryad. https://doi.org/10.5061/dryad.x95x69pgx
+
+Proposed Question
+Does tumor size correlate to incidence of metastasis? 
+Does number of lymph nodes affected correlate to incidince of metastasis?
+
+Variables needed to answer question:
+number of lymph nodes affected 
+Confirmed mets
