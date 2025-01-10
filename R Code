@@ -13,5 +13,5 @@ p <- ggscatter(AGASACA_Data, x = "Tumour size", y = "Number of LN",
           add = "reg.line", conf.int = TRUE,
           cor.coef = TRUE, cor.method = "pearson",
           xlab = "Tumour size (cm)", ylab = "Number of LN")
-#utilize teh ggpar function to change the angle of the text on the x axis to 45 degrees
+#utilize the ggpar function to change the angle of the text on the x axis to 45 degrees
 ggpar(p, x.text.angle = 45)
